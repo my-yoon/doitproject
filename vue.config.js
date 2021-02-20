@@ -1,5 +1,5 @@
 // vue.config.js 
 module.exports = {
-    publicPath: '/doitproject/',
-    outputDir: 'docs'
+    publicPath: process.env.NODE_ENV === 'production' ? '/doitproject/' : '/'
+
 }
