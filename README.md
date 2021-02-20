@@ -1,4 +1,4 @@
-# sptek_vue_template_1.6
+# Doit 웹사이트 따라 만들기
 
 ## Project setup
 ```
