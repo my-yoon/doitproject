@@ -1,4 +1,4 @@
 module.exports = {
-    publicPath: '/doitproject/',
+    publicPath: '/vue-sample',
     outputDir: 'docs'
 }
