@@ -72,8 +72,7 @@
             </li>
             <li>
               <label for="pass"><i class="bi bi-tag" />관심 분야 선택</label>
-              <b-form-checkbox-group 
-                v-model="selected1"
+              <b-form-checkbox-group
                 :options="options1"
                 class="radiobox"
               />
@@ -111,9 +110,9 @@ export default {
         {text:"예", value:"Y"},
         {text:"아니오", value:"N"},
       ],
-      selected1:"Y",
+      
       options1:[
-        {text:"HTML/CSS", value:"html"},
+        {text:"HTML/CSS", value:'html'},
         {text:"자바스크립트", value:"javascript"},
         {text:"파이썬", value:"python"},
         {text:"Vue.js", value:"vue"},
@@ -121,14 +120,8 @@ export default {
         {text:"리액트", value:"react"},
         {text:"자료구조/알고리즘", value:"data"},
         {text:"오토캐드", value:"cad"},
-      ]
+      ],
     }
   },
 }
 </script>
-<style>
-
-
-
-</style>
-
