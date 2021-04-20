@@ -131,7 +131,7 @@ header.scrollTop:after{top:22px; }
 
 }
 .mainbanner{height:350px;}
-.maincontent{background: url('/images/content_bg.png') repeat-x;padding: 50px 0 40px 0;}
+.maincontent{background: url('/images/content_bg.png') repeat-x;padding: 10px 0 40px 0;}
 .title{padding: 5px 10px;margin-bottom: 15px;border-radius: 5px;border-bottom: solid 1px #eee; }
 .title .more{display:inline-block; vertical-align: middle;  margin-left:5px;padding-left:5px;background: url('/images/more.png') no-repeat left center;font-size: 11px; line-height: 12px; color:#ababab;}
 .flexbox.referencewrap{justify-content: space-between; align-items:flex-start;}
